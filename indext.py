@@ -12,3 +12,5 @@ import cv2
 import imghdr #checks extenchens 
 
 data_dir = 'data'
+
+image_exts = ['jpeg', 'jpg', 'png']
