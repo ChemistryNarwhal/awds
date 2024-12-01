@@ -7,3 +7,8 @@ import os #nagation though file struters on all operating sistems
 gpus = tf.config.experimental.list_physical_devices('GPU')
 for gpu in gpus:
     ft.config.experimental.set_memory_growth(gpu, True)
+
+import cv2
+import imghdr #checks extenchens 
+
+data_dir = 'data'
